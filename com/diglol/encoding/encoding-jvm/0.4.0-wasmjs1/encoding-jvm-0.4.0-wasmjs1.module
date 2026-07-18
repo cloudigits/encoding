@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../encoding/0.4.0-wasmjs1/encoding-0.4.0-wasmjs1.module",
+    "group": "com.diglol.encoding",
+    "module": "encoding",
+    "version": "0.4.0-wasmjs1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "encoding-jvm-0.4.0-wasmjs1.jar",
+          "url": "encoding-jvm-0.4.0-wasmjs1.jar",
+          "size": 18870,
+          "sha512": "fe7c423ed40ca2e84f61d0a089f2856f765b3074104f7da9895babb1d9e479936a30f41dcb3b3ae42bb9da7d29d9cfcc0d96ba52f466b126a45070cd7a435b17",
+          "sha256": "81df76bcd18bd49684c01f21135e995459cb91a7600074af7b3cf0bc7d699c87",
+          "sha1": "e0c42f03128b604374efc5e7aca507016e5faf5c",
+          "md5": "e9edec901bc26d86dfff39e5aabd3410"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "encoding-jvm-0.4.0-wasmjs1.jar",
+          "url": "encoding-jvm-0.4.0-wasmjs1.jar",
+          "size": 18870,
+          "sha512": "fe7c423ed40ca2e84f61d0a089f2856f765b3074104f7da9895babb1d9e479936a30f41dcb3b3ae42bb9da7d29d9cfcc0d96ba52f466b126a45070cd7a435b17",
+          "sha256": "81df76bcd18bd49684c01f21135e995459cb91a7600074af7b3cf0bc7d699c87",
+          "sha1": "e0c42f03128b604374efc5e7aca507016e5faf5c",
+          "md5": "e9edec901bc26d86dfff39e5aabd3410"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "encoding-jvm-0.4.0-wasmjs1-sources.jar",
+          "url": "encoding-jvm-0.4.0-wasmjs1-sources.jar",
+          "size": 9944,
+          "sha512": "771378b8da771909ee8359a585de384f84d6df379c3412a98aa078141366202de5f20c717c4f30eedaef0d16e91842f35ccfeebf59cec8adae2c1f7bac7d2ff5",
+          "sha256": "d0a4470a0bce9d6b4e4e11274ffc028c0c83cf5371ee73922d69988f3e22794b",
+          "sha1": "966ed73fc37b5dce1317a19f6524e933416f7e7f",
+          "md5": "4f9410fc8d28abf89c56048aa5038ab1"
+        }
+      ]
+    }
+  ]
+}

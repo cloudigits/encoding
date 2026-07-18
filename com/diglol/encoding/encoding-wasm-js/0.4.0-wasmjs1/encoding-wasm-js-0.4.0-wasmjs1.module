@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../encoding/0.4.0-wasmjs1/encoding-0.4.0-wasmjs1.module",
+    "group": "com.diglol.encoding",
+    "module": "encoding",
+    "version": "0.4.0-wasmjs1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "encoding-wasm-js-0.4.0-wasmjs1.klib",
+          "url": "encoding-wasm-js-0.4.0-wasmjs1.klib",
+          "size": 30211,
+          "sha512": "41495c1d7895d4cb25e639a0ba23011cd4afebcab3696e0e500758fe828430bb9398b8dbeb049f3e041b0a3b3c97dff1a9f1822524a19f1706fde0cee426e521",
+          "sha256": "62fc95657a63545b075a5fbdbf2a5332bc07e3f6d5921f773e028b87b41d0273",
+          "sha1": "2ce58993d3cc79aad75790aa94e2b15f7336c74b",
+          "md5": "3371a414ed2b0a258d1706c3739be980"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "encoding-wasm-js-0.4.0-wasmjs1.klib",
+          "url": "encoding-wasm-js-0.4.0-wasmjs1.klib",
+          "size": 30211,
+          "sha512": "41495c1d7895d4cb25e639a0ba23011cd4afebcab3696e0e500758fe828430bb9398b8dbeb049f3e041b0a3b3c97dff1a9f1822524a19f1706fde0cee426e521",
+          "sha256": "62fc95657a63545b075a5fbdbf2a5332bc07e3f6d5921f773e028b87b41d0273",
+          "sha1": "2ce58993d3cc79aad75790aa94e2b15f7336c74b",
+          "md5": "3371a414ed2b0a258d1706c3739be980"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "encoding-wasm-js-0.4.0-wasmjs1-sources.jar",
+          "url": "encoding-wasm-js-0.4.0-wasmjs1-sources.jar",
+          "size": 8918,
+          "sha512": "1c0d377714cbbeafe67e7b0ea17267d3a31e7ef060c92894344eb26a2aada8b4f6e47756bfed98aa6f3aadd01d95d54aedc0ac65b841dc820e8b176d000be0cd",
+          "sha256": "53c01de041d1162512028924de2b1a97e62b2eb1f6a51c0b68a25acd26980393",
+          "sha1": "50b5e82dcfccbb37270e50f81b931d60acc4d893",
+          "md5": "846ecadfcefbdc775b26f6950d4f77aa"
+        }
+      ]
+    }
+  ]
+}

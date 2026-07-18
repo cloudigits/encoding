@@ -1,0 +1,72 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../encoding/0.4.0-wasmjs1/encoding-0.4.0-wasmjs1.module",
+    "group": "com.diglol.encoding",
+    "module": "encoding",
+    "version": "0.4.0-wasmjs1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "encoding-mingwX64Main-0.4.0-wasmjs1.klib",
+          "url": "encoding-mingwx64-0.4.0-wasmjs1.klib",
+          "size": 30450,
+          "sha512": "a72069216e69552943b6a22e76857d4bc324678e5a924604f4537432e097aae9c53c80ade23c7cf118e8ef5e49e046ace26a0a81b093cabe73fd2d3c9848b7af",
+          "sha256": "1844577416d2f0630cf758b47cfc66d9654ab3206c23c5504ee5b84a8d029171",
+          "sha1": "33352034fdba2c257e322e0460a1926c9d7e8425",
+          "md5": "d30d0567a422a8198467d24ab590e44a"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "encoding-mingwx64-0.4.0-wasmjs1-sources.jar",
+          "url": "encoding-mingwx64-0.4.0-wasmjs1-sources.jar",
+          "size": 8918,
+          "sha512": "c4941419a28a69747f4eb22ddc915d562ba91812e82af5f1a6b367781d0753cf9e1b5baff4443f37ebb833046b6438c53ac32143e542c34d29cb22f54da62170",
+          "sha256": "4aa6503fdc01b2b57ee0cd8992f58f83a44fcbafeffd3d8c112f6062e33d3482",
+          "sha1": "9dfb894cd6084d2f7eb357db8a3dc9a9cb7704f8",
+          "md5": "cc882f9d4c40c4c71bb1b2dd68ef306d"
+        }
+      ]
+    }
+  ]
+}

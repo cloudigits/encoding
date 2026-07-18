@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../encoding/0.4.0-wasmjs1/encoding-0.4.0-wasmjs1.module",
+    "group": "com.diglol.encoding",
+    "module": "encoding",
+    "version": "0.4.0-wasmjs1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "encoding-watchosArm64Main-0.4.0-wasmjs1.klib",
+          "url": "encoding-watchosarm64-0.4.0-wasmjs1.klib",
+          "size": 30476,
+          "sha512": "4a95f88cddb0c6b31945957f4a3837587e6729a3cc2400a1edd745d99f122662643e4e64f36a9ec33d014fbd45a32b9b3748c60741c3398f077aa111afc3acb1",
+          "sha256": "e9d43ceb38b1e2af09c1edf019e854a02eaa03e86f1c76f0ae7bbcba31b61890",
+          "sha1": "b88607e2c0f0e3e92c1bdbc86528243eca23fe66",
+          "md5": "768c54a4c0433bdec7ab87b3a81f1ed0"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "encoding-watchosarm64-0.4.0-wasmjs1-sources.jar",
+          "url": "encoding-watchosarm64-0.4.0-wasmjs1-sources.jar",
+          "size": 8918,
+          "sha512": "c4941419a28a69747f4eb22ddc915d562ba91812e82af5f1a6b367781d0753cf9e1b5baff4443f37ebb833046b6438c53ac32143e542c34d29cb22f54da62170",
+          "sha256": "4aa6503fdc01b2b57ee0cd8992f58f83a44fcbafeffd3d8c112f6062e33d3482",
+          "sha1": "9dfb894cd6084d2f7eb357db8a3dc9a9cb7704f8",
+          "md5": "cc882f9d4c40c4c71bb1b2dd68ef306d"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "encoding-watchosarm64-0.4.0-wasmjs1-metadata.jar",
+          "url": "encoding-watchosarm64-0.4.0-wasmjs1-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../encoding/0.4.0-wasmjs1/encoding-0.4.0-wasmjs1.module",
+    "group": "com.diglol.encoding",
+    "module": "encoding",
+    "version": "0.4.0-wasmjs1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "encoding-tvosX64Main-0.4.0-wasmjs1.klib",
+          "url": "encoding-tvosx64-0.4.0-wasmjs1.klib",
+          "size": 30443,
+          "sha512": "c5ad37bdd0f3890a907c9ea1567ab644e681320eaea753067dbd03939ca49d6e1846a5c4c28b7525ed80b8b5c4e7645ad62cb4fa14ad1e9788b387d924d00630",
+          "sha256": "26428cc33291052d4446b0766548e654307dbd8132bca219a7edabb19ca1766d",
+          "sha1": "b6ee29cc3e2688db9f0e090fca4baf442a80380a",
+          "md5": "fc9571e06780aad3a8dfdd3934ce45e7"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "encoding-tvosx64-0.4.0-wasmjs1-sources.jar",
+          "url": "encoding-tvosx64-0.4.0-wasmjs1-sources.jar",
+          "size": 8918,
+          "sha512": "c4941419a28a69747f4eb22ddc915d562ba91812e82af5f1a6b367781d0753cf9e1b5baff4443f37ebb833046b6438c53ac32143e542c34d29cb22f54da62170",
+          "sha256": "4aa6503fdc01b2b57ee0cd8992f58f83a44fcbafeffd3d8c112f6062e33d3482",
+          "sha1": "9dfb894cd6084d2f7eb357db8a3dc9a9cb7704f8",
+          "md5": "cc882f9d4c40c4c71bb1b2dd68ef306d"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "encoding-tvosx64-0.4.0-wasmjs1-metadata.jar",
+          "url": "encoding-tvosx64-0.4.0-wasmjs1-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}
