@@ -1,7 +1,9 @@
-rootProject.name = "encoding-root"
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
 
-include(":encoding")
-include(":benchmark")
-include(":samples")
-
-enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+rootProject.name = "encoding"
